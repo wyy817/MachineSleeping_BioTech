@@ -1,0 +1,47 @@
+[project]
+name = "spmm-streamlit-app"
+version = "1.0.0"
+description = "SPMM Spatial Transcriptomics Analysis Platform"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["app"]
+
+# Core Dependency Configuration
+[project.dependencies]
+streamlit = ">=1.44"
+matplotlib = ">=3.10"
+pandas = ">=2.2"
+numpy = ">=1.26"
+seaborn = ">=0.13"
+scikit-learn = ">=1.5"
+torch = ">=2.4"
+tensorflow = ">=2.17"
+plotly = ">=6.0"
+opencv-python = ">=4.10"
+
+# Optional extensions
+[project.optional-dependencies]
+analysis = [
+    "scipy>=1.14",
+    "statsmodels>=0.14",
+    "shap>=0.46"
+]
+
+visualization = [
+    "pydeck>=0.9",
+    "altair>=5.5"
+]
+
+# Deployment-specific configuration (Streamlit Cloud)
+[tool.streamlit]
+server.port = 8501
+server.headless = true
+browser.serverAddress = "0.0.0.0"
+
+[project.scripts]
+spmm-app = "app.main:run"
