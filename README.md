@@ -2,6 +2,8 @@
 
 Pathorchestra is an integrated biomedical platform that addresses healthcare challenges by combining AI-assisted diagnosis, tumor/cancer prediction, and medical dataset annotation. The platform aims to alleviate uneven distribution of medical resources, assist healthcare professionals, and contribute to the development of medical AI models.
 
+Link for Pathorchestra (demo): https://machinesleepingbiotech-cfaysajnytxtjabboq9rhs.streamlit.app/
+
 ## Overview
 
 Pathorchestra consists of three specialized modules working together to address different aspects of healthcare challenges:
@@ -26,6 +28,8 @@ MediFusion is an AI-based health problem diagnosis platform designed for individ
 
 SPMM is a state-of-the-art multimodal medical foundation model specifically designed for tumor/cancer slice prediction tasks. It integrates spatial transcriptomic data, pathological images, and clinical text to provide accurate tumor classification, staging, and prognosis prediction.
 
+Link for SPMM: https://spmm-by-ms-ewhfbt4fp5w9rtwfy8rozo.streamlit.app/
+
 **Key Features:**
 - Multimodal integration of spatial transcriptomics, images, and clinical text
 - Spatial encoding using graph neural networks
@@ -36,6 +40,8 @@ SPMM is a state-of-the-art multimodal medical foundation model specifically desi
 ### 3. BioAnnotate
 
 BioAnnotate is a professional annotation platform for Whole Slide Images (WSI) and spatial transcriptomics data in biomedical research, providing tools for researchers to annotate, classify, and analyze biological data.
+
+Link for BioAnnotate: https://machinesleepingbiotech-zpysuvh7r2uuq3twksac79.streamlit.app/
 
 **Key Features:**
 - WSI annotation tools
