@@ -43,14 +43,7 @@ st.markdown("""
         text-align: center;
         margin-bottom: 2rem;
     }
-    .login-container {
-        max-width: 500px;
-        margin: 0 auto;
-        padding: 2rem;
-        border-radius: 10px;
-        background-color: #f8f9fa;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
+    /* Removed login-container style */
     .dashboard-header {
         font-size: 1.8rem;
         color: #3366ff;
@@ -60,13 +53,6 @@ st.markdown("""
         font-size: 1.2rem;
         color: #4d4d4d;
         margin-bottom: 1.5rem;
-    }
-    .feature-container {
-        background-color: #f8f9fa;
-        padding: 1.5rem;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-        margin-bottom: 1rem;
     }
     .centered-text {
         text-align: center;
