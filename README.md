@@ -79,7 +79,7 @@ BioAnnotate is a professional annotation platform for Whole Slide Images (WSI) a
 
 ## Usage
 
-1. Open your browser and navigate to: http://127.0.0.1:5000/ (default)
+1. Open your browser and navigate to the platform
 2. From the main dashboard, select one of the three modules:
    - **MediFusion** - For health consultation
    - **SPMM** - For tumor/cancer prediction (professional use)
