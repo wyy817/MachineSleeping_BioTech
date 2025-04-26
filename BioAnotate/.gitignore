@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Streamlit
+.streamlit/
+
+# User uploads
+data/user_uploads/*
+!data/user_uploads/.gitkeep
+data/annotations/*
+!data/annotations/.gitkeep
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Large data files and images
+*.h5ad
+*.svs
+*.ndpi
+*.tiff
+*.tif
+*.png
+*.jpg
+*.jpeg
+!assets/img/*.png
+!assets/img/*.jpg
+!data/samples/*.png
+!data/samples/*.jpg
