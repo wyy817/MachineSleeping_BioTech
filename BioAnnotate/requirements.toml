@@ -1,21 +1,53 @@
-[dependencies]
-streamlit = ">=1.22.0"
-numpy = ">=1.22.0"
-pandas = ">=1.4.0"
-opencv-python = ">=4.5.0"
-matplotlib = ">=3.5.0"
-plotly = ">=5.8.0"
-pillow = ">=9.0.0"
-scikit-image = ">=0.19.0"
-scipy = ">=1.8.0"
-anndata = ">=0.8.0"
-tifffile = ">=2022.5.4"
-openslide-python = ">=1.2.0"
-scanpy = ">=1.9.0"
-pyvips = ">=2.2.0"
-tqdm = ">=4.64.0"
-streamlit-drawable-canvas = ">=0.9.0"
-streamlit-image-annotation = ">=0.1.0"
-watchdog = ">=2.1.0"
-python-dotenv = ">=0.20.0"
-requests = ">=2.28.0"
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "streamlit-app"
+version = "0.1.0"
+description = "Streamlit application"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
+streamlit = "1.40.0"
+pandas = "2.2.2"
+numpy = "1.26.4"
+matplotlib = "3.10.1"
+seaborn = "0.13.2"
+pillow = "11.2.1"
+plotly = "6.0.1"
+scikit-learn = "1.5.1"
+scipy = "1.14.1"
+streamlit-drawable-canvas = "0.9.3"
+streamlit-image-annotation = "0.5.0"
+python-dotenv = "1.1.0"
+
+# Dashboard components if needed
+dash = "3.0.2"
+dash-bootstrap-components = "2.0.0"
+
+# Data processing and analysis
+pandas = "2.2.2"
+numpy = "1.26.4"
+
+# Optional dependencies depending on your specific application
+# tensorboard = "2.17.1"
+# tensorflow = "2.17.0"
+# torch = "2.4.1"
+# scanpy = "1.11.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.0"
+isort = "^5.12"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 88
