@@ -103,12 +103,8 @@ We developed a preliminary service system based on Python 3.12 and the Flask fra
 
 ## 🌐Web Demo
 
-![](E:\pic\0.png)
-
-![1](E:\pic\1.png)
-
-![2](E:\pic\2.png)
-
-![3](E:\pic\3.png)
-
-![4](E:\pic\4.png)
+![Demo 1](https://github.com/wyy817/MachineSleeping_BioTech/blob/main/MediFusion/raw/demo1.png)
+![Demo 2](https://github.com/wyy817/MachineSleeping_BioTech/blob/main/MediFusion/raw/demo2.png)
+![Demo 3](https://github.com/wyy817/MachineSleeping_BioTech/blob/main/MediFusion/raw/demo3.png)
+![Demo 4](https://github.com/wyy817/MachineSleeping_BioTech/blob/main/MediFusion/raw/demo4.png)
+![Demo 5](https://github.com/wyy817/MachineSleeping_BioTech/blob/main/MediFusion/raw/demo5.png)
