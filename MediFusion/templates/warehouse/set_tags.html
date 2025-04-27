@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Tags</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h1>Set Tags for Dataset: {{ dataset.name }}</h1>
+        <form method="POST">
+            <!-- Display the current tags as the input value -->
+            <div>
+                <label for="tags">Tags</label>
+                <input type="text" id="tags" name="tags" value="{{ dataset.tags }}" required>
+            </div>
+            <div>
+                <button type="submit">Update Tags</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
